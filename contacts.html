@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<link rel="icon" href="./logos/PASAL.png" type="image/x-icon">
+	<link rel="stylesheet" type="text/css" href="./html/nav.css">
+	<link rel="stylesheet" href="pasal.css">
+	<title>Contacts</title>
+</head>
+<body>
+	<header>
+		<div class="logo-name">
+			<img src="./logos/PASAL.gif" alt="Logo" onclick="location.href='index.html'">
+			<h4 onclick="location.href='index.html'">Pasal</h4>
+		</div>
+
+		<nav>
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="products.html">Products</a></li>
+				<li><a href="about.html">About</a></li>
+				<li class="active"><a href="contacts.html">Contact</a></li>
+			</ul>
+		</nav>
+		<div class="search-cart">
+			
+			<a href="cart.html"><img src="./logos/shopping-cart.png" alt="Cart" width="33px"></a>
+
+		</div>
+	</header>
+	<section>
+		<div class="map">
+			<iframe src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=35%C2%B018'22.0%22S%20149%C2%B007'34.5%22E+(Car%20Website)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed" width="100%" height="500" style="border:2px solid blue;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+		</div>
+	</section>
+	<section class="cont">
+		<div id="contact" class="contact">
+			<form>
+				<fieldset>
+					<legend align="center">Your information</legend>
+
+					<label>Name:</label>
+					<input type="text" class="input-field" required>
+					<br> <br>
+
+					<label>Country:</label>
+					<select class="input-field" required>
+						<option value="">Select a country</option>
+						<option value="Nepal">Australia</option>a
+					</select>
+					<br> <br>
+
+					<label>Gender:</label>
+					<label class="radio-label">
+						<input type="radio" name="gender" value="male"> Male
+					</label>
+					<label class="radio-label">
+						<input type="radio" name="gender" value="female"> Female
+					</label>
+					<br><br>
+
+					<label>Message:</label>
+					<textarea class="input-field" name="message" rows="3"></textarea>
+					<br><br>
+					<label>E-mail:</label>
+					<input type="email" name="email" class="input-field">
+					<br><br>
+
+					<input type="submit" value="Submit" class="but">
+					<input type="reset" value="Clear" class="but">
+				</fieldset>
+			</form>
+		</div>
+	</section>
+	<footer>
+		<div class="footer-content">
+			<p>Contact us: pasaltoall@gmail.com</p>
+			<p>Address: Canberra,Australia</p>
+			<p style="font-size:10pt">&copy;All rights reserved to Ashim</p>
+		</div>
+	</footer>
+
+</body>
+</html>
